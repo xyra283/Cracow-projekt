@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRZYGODA</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/ffa07d6559.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar">
+      <h1 class="logo">TOUR IN KRAKÓW</h1>
+      <ul class="nav-links">
+        <li class="active"><a href="#"></a>Home</li>
+        <li><a href="#"></a>Tours</li>
+        <li><a href="#"></a>Explore</li>
+        <li><a href="#"></a>About</li>
+        <li class="ctn"><a href="#"></a>Contact</li>
+      </ul>
+      <img src="images/menubt.png" alt="#" class="menu-btn" />
+    </nav>
+    <header>
+      <div class="header-content">
+        <h2>Explore Kraków</h2>
+        <div class="line"></div>
+        <h1>A WONDERFUL CITY</h1>
+        <a href="" class="ctn">Learn More</a>
+      </div>
+    </header>
+
+    <!--EVENTS-->
+    <section class="events">
+      <div class="title">
+        <h1>UPCOMING EVENTS</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="images/lajkonik.jpg" alt="" />
+          <h4>Lajkonik</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
+            tenetur soluta eos obcaecati quisquam tempore assumenda possimus
+          </p>
+          <a href="#" class="ctn">Learn more</a>
+        </div>
+        <div class="col">
+          <img src="images/sylwester.jpg" alt="" />
+          <h4>NEW YEAR!</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
+            tenetur soluta eos obcaecati quisquam tempore assumenda possimus
+          </p>
+          <a href="#" class="ctn">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore">
+      <div class="explore-content">
+        <h1>EXPLORE KRAKÓW</h1>
+        <div class="line"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+        </p>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </section>
+
+    <section class="tours">
+      <div class="row">
+        <div class="col content-col">
+          <h1>Upcoming tours</h1>
+          <div class="line"></div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat
+            corporis ea voluptatibus rerum esse minima!
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col image-col">
+          <div class="image-gallery">
+            <img src="images/tour1.jpg" alt="" />
+            <img src="images/tour2.jpg" alt="" />
+            <img src="images/tour3.jpg" alt="" />
+            <img src="images/tour4.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <p>KRAKÓW POLAND</p>
+    </section>
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navlinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
